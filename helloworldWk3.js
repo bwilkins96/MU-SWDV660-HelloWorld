@@ -7,7 +7,7 @@ http.createServer(function (request, response) {
    // Content Type: text/plain
    response.writeHead(200, {'Content-Type': 'text/plain'});
 
-   let responseStr = 'Hey Earth!\n\n-------------\nBen was here!\n-------------\n';
+   var responseStr = 'Hey Earth!\n\n-------------\nBen was here!\n-------------\n';
    responseStr += '\nUpdated for week 3 Ansible Playbook assignment\n';
    
    // Send the response body
